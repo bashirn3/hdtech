@@ -574,6 +574,17 @@ section {
   filter: none;
 }
 
+#partners  .swiper-slide img {
+  transform: scale(1.5);
+
+}
+
+#partners  .swiper-slide img:hover {
+  transform: scale(2.5);
+
+
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1470,7 +1481,7 @@ section {
 
 .blog .entry .entry-img {
   /* max-height: 440px; */
-  margin: -30px -30px 20px -30px;
+  margin: 0 0 20px 0;
   overflow: hidden;
 }
 
@@ -2139,4 +2150,9 @@ section {
 
 .map-container {
   margin-top: 40px;
+}
+
+#atos{
+  height: 20px;
+
 }
