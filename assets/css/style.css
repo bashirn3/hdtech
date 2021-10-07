@@ -1480,9 +1480,14 @@ section {
 }
 
 .blog .entry .entry-img {
-  /* max-height: 440px; */
-  margin: 0 0 20px 0;
+  max-height: 440px;
+  max-width: 1000px;
+  margin: 0 auto 20px;
   overflow: hidden;
+}
+.blog .entry .entry-img img {
+ height: auto;
+ width: 100%;
 }
 
 
@@ -2152,7 +2157,7 @@ section {
   margin-top: 40px;
 }
 
-#atos{
-  height: 20px;
 
+#evernex{
+  margin-top: 10px;
 }
