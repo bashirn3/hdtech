@@ -574,7 +574,10 @@ section {
   filter: none;
 }
 
-#partners  .swiper-slide img {
+
+
+/* @media (min-width: 768px) {
+ #partners  .swiper-slide img {
   transform: scale(1.5);
 
 }
@@ -584,6 +587,7 @@ section {
 
 
 }
+} */
 
 /*--------------------------------------------------------------
 # About
